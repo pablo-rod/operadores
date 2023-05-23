@@ -4,4 +4,7 @@
 
 - Atribuição
 - Aritméticos 
-
+- Unários (++ + - -- !) 
+- Ternários (?(se) : (senao))
+- Relacionais (== != >= ...)
+- Lógicos (&& ||)

@@ -4,6 +4,7 @@ import javax.xml.crypto.Data;
 
 public class operadores {
     public static void main(String[] args)  {
+        
         // // Atribuição
         // String name = "Pablo";
         // int idade = 26;
@@ -21,24 +22,55 @@ public class operadores {
         // int modulo = 18 % 3;
         // // resto
 
-        String concatenacao = "?";
+        // String concatenacao = "?";
 
-        concatenacao = 1+1+1+"1";
+        // concatenacao = 1+1+1+"1";
 
-        System.out.println(concatenacao);
+        // System.out.println(concatenacao);
 
-        concatenacao = 1+"1"+1+1;
+        // concatenacao = 1+"1"+1+1;
 
-        System.out.println(concatenacao);
+        // System.out.println(concatenacao);
 
-        concatenacao = "1"+1+1+1;
+        // concatenacao = "1"+1+1+1;
 
-        System.out.println(concatenacao);
+        // System.out.println(concatenacao);
 
-        concatenacao = "1"+(1+1+1);
+        // concatenacao = "1"+(1+1+1);
 
-        System.out.println(concatenacao);
+        // System.out.println(concatenacao);
 
+        // int numero = 5;
+        // numero = - numero;
+        // System.out.println(numero);
+        // numero = - numero;
+        // System.out.println(numero);
 
+        // int a, b;
+        // a = 6;
+        // b = 6;
+
+        // String resultado = a==b ? "Verdadeiro" : "Falso";
+
+        // ao invés de usar o seguinte bloco de código
+
+        // if (a==b) 
+        //     resultado = "Verdadeiro";
+        // else 
+        //     resultado = "Falso";
+
+        // System.out.println(resultado);
+
+        boolean cond1 = true;
+        boolean cond2 = false;
+        
+        if (cond1 && (7 > 4)) {
+            System.out.println("Condição verdadeira");
+        } 
+        else if (cond1 || cond2) {
+            System.out.println("Condição verdadeira");
+        }
+
+        System.out.print("Fim");
     }
 }
